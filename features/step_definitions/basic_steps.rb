@@ -32,6 +32,18 @@ Given("we have (1 )user with email {string}") do |email|
   create(:user, email: email)
 end
 
+Given("we have (1 )subscription with title {string}") do |title|
+  create(:subscription, title: title)
+end
+
 Then("(s/S)how me the page") do
   save_and_open_page
+end
+
+Given("I click on {string}") do |string|
+  click_on  string
+end
+
+Then("I should not see {string}") do |string|
+  pending # Write code here that turns the phrase above into concrete actions
 end
