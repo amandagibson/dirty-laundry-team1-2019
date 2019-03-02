@@ -37,5 +37,5 @@ Given("we have (1 )subscription with title {string}") do |title|
 end
 
 Given("I click on {string}") do |string|
-  click_on  string
+  click_on string
 end
