@@ -14,3 +14,5 @@ Feature: User can purchase a subscription
         And I click on "Family pack"
         Then I should see "Amount"
         Then I click on "Pay with Card" button
+        When I fill in the payment form with valid CC credentials
+        And I click on "Submit payment"
