@@ -6,7 +6,7 @@ Feature: User can purchase a subscription
         And we have 1 subscription with title 'family-pack'
         And I am logged in as 'thomas@craft.se'
 
-
+@javascript
     Scenario: User can purchase a subscription
         And I am on the "landing" page
         And I click on "Subscriptions"
