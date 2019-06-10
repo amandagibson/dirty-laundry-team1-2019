@@ -1,4 +1,7 @@
 # Dirty Laundry Time Slot Booking App
+
+ [![Coverage Status](https://coveralls.io/repos/github/CraftAcademy/dirty-laundry-team1-2019/badge.svg?branch=development)](https://coveralls.io/github/CraftAcademy/dirty-laundry-team1-2019?branch=development)  [![Build Status](https://semaphoreci.com/api/v1/craftacademy/dirty-laundry-team1-2019/branches/development/shields_badge.svg)](https://semaphoreci.com/craftacademy/dirty-laundry-team1-2019)
+
 March 2019 Mid Course Project
 
 We created a time slot booking application for laundry booking ease. You can sign up with your e-mail or with facebook.
@@ -21,7 +24,7 @@ Ensure that the gem versions on your local machine are as specified in the Gemfi
 We use cucumber and RSpec for testing. `rake` runs both simultaneously.
 
 ## Deployment:
-Deployed at  with Heroku.
+Deployed at https://dirty-laundry-2019.herokuapp.com/ with Heroku.
 
 ## Built With:
 - [Rails](https://github.com/rails/rails)
